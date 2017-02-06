@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 
 yum update -y
-yum install -y docker nginx git
 
 wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
-rpm --import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key -y
-yum install jenkins
+rpm --import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key
+yum install docker nginx git jenkins -y
 
 service docker start
 

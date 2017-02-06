@@ -13,6 +13,7 @@
 9. Review and launch.
 10. Choose existing key-pair or create new.
 11. When the instance is up connect with SSH (right click instance in the list and selec `connect` for more details)
-12. 
+12. Run `wget https://raw.githubusercontent.com/laardee/jenkins-installation/master/install.sh && sudo chmod 755 install.sh && sudo ./install.sh`
+13. 
 
  
