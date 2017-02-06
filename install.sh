@@ -41,5 +41,3 @@ service nginx start
 
 chkconfig jenkins on
 chkconfig nginx on
-
-cat /var/lib/jenkins/secrets/initialAdminPassword
