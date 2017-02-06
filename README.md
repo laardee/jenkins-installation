@@ -14,6 +14,9 @@
 10. Choose existing key-pair or create new.
 11. When the instance is up connect with SSH (right click instance in the list and selec `connect` for more details)
 12. Run `wget https://raw.githubusercontent.com/laardee/jenkins-installation/master/install.sh && sudo chmod 755 install.sh && sudo ./install.sh`
+  * Snippet downloads [install.sh](https://github.com/laardee/jenkins-installation/blob/master/install.sh)
+  * Changes downloaded file permissions
+  * Runs the downloaded script
 13. After Jenkins has started, run `sudo cat /var/lib/jenkins/secrets/initialAdminPassword` for initial admin password.
 14. Select instance in AWS console, select description and find `Public DNS (IPv4)` in Description tab
 15. Open Jenkins in browser and insert initial admin password when asked.
